@@ -62,18 +62,27 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <li>Listed below are the commands that Locju allows you to use in the console. In order to use them, go to your project folder in the console (ex: <b>C:\users\Briaares\Desk\Codeforces\</b>)
 	<ul>
 		<li><b>locju start</b> creates a Locju environment in your current directory.</li>
+		<br>
+		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/locju_env.jpg?raw=true"></center>
+		<br>
 		<li><b>locju startcf</b> asks for a Codeforces Round, wich is the one that appears on the round link, and it create directories with the format <b>\RoundName\ProblemIndex\</b> (ex: \707-Div-2\A) and inside each directory, a Locju environment.</li>
+		<br>
+		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/Round_number.jpg?raw=true"></center>
 		<br>
 		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/dirs_created.jpg?raw=true"></center>
 		<br>
 		<li><b>locju judge</b> Judge your solution with the test cases inside <b>\tests</b>.</li>
+		<br>
+		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/locju_judge.jpg?raw=true"></center>
 		<br>
 		<li><b>locju validatorjudge</b> Judge your solution with the test cases inside <b>\tests</b> using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
 		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
+		<br>
+		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/find_case.jpg?raw=true"></center>
 		<br>
 		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
