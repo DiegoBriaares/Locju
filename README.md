@@ -24,7 +24,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 
 <a name="installation"><h3>Installation</h3></a>
 <ol>
-<li>Download all the files from this repository.</li>
+<li>Download this repository.</li>
 <li>Put the Locju folder inside <b>C:\</b>. So you will have a <b>C:\Locju\</b> Directory</li>
 <li>Add <b>C:\Locju\</b> to your path environment variables,  You can do this as follows: 
     <ol>
