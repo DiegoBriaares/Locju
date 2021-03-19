@@ -20,6 +20,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <a name="requisites"><h3>Requisites</h3></a>
 <ul>
 <li>A Windows version greater or equal than 8.1</li>
+<li>Already installed g++</li>
 </ul>
 
 <a name="installation"><h3>Installation</h3></a>
