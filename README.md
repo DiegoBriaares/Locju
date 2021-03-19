@@ -24,7 +24,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 
 <a name="installation"><h3>Installation</h3></a>
 <ol>
-<li>Download this repository.</li>
+<li>Download this repository or from here: https://drive.google.com/file/d/1z7bUH-hIEbinCTq9J7nut2YLi9H-ckYM/view?usp=sharing</li>
 <li>Put Locju folder inside <b>C:\</b>. So you will have a <b>C:\Locju\</b> Directory.</li>	
 <li>Add <b>C:\Locju\</b> to your path environment variables, you can do this as follows: 
     <ol>
@@ -70,6 +70,11 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 		<br>
 		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/Round_number.jpg?raw=true"></center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/find_case.jpg?raw=true"></center>
 		<br>
 		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/dirs_created.jpg?raw=true"></center>
