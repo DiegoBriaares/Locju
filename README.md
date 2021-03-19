@@ -40,7 +40,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <ul>
 <li>A Locju environment consists of four folders and a cpp file: <b>tests</b>, <b>correct_solution</b>, <b>generator</b>, <b>validato</b>r and <i>sol.cpp</i>.
 	<ul>
-		<li><b>tests</b> contains inside the problem test cases (with <i>inT.in</i> and <i>outT.out</i> format, T is a positive integer number, wich stands for the test case number), and a folder <b>time-limit</b>
+		<li><b>tests</b> contains inside the problem test cases (with <i>inT.in</i> and <i>outT.out</i> format, T is a positive integer number, wich stands for the test case number), and also contains a folder <b>time-limit</b>
 			<ul>
 				<li><i>inT.in</i> is the test case input (ex: <i>in1.in</i>)</li>
 				<li><i>outT.out</i> is the test case output (ex: <i>out1.in</i>)</li>
@@ -62,14 +62,19 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <li>Listed below are the commands that Locju allows you to use in the console. In order to use them, go to your project folder in the console (ex: <b>C:\users\Briaares\Desk\Codeforces\</b>)
 	<ul>
 		<li><b>locju start</b> creates a Locju environment in your current directory.</li>
-		<li><b>locju startcf</b> It asks for a Codeforces Round, wich is the one that appears on the round link, and it create directories with the format <b>\RoundName\ProblemIndex\</b> (ex: \707-Div-2\A) and inside each directory, a Locju environment.</li>
+		<li><b>locju startcf</b> asks for a Codeforces Round, wich is the one that appears on the round link, and it create directories with the format <b>\RoundName\ProblemIndex\</b> (ex: \707-Div-2\A) and inside each directory, a Locju environment.</li>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/Round_number.jpg?raw=true"></center>
+		<br>
+		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/dirs_created.jpg?raw=true"></center>
+		<br>
 		<li><b>locju judge</b> Judge your solution with the test cases inside <b>\tests</b>.</li>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/locju_judge.jpg?raw=true"></center>
+		<br>
 		<li><b>locju validatorjudge</b> Judge your solution with the test cases inside <b>\tests</b> using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
-		<li><b>locju find</b> It asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
+		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/find_case.jpg?raw=true"></center>
-		<li><b>locju find</b> It asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
+		<br>
+		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
 	</ul>
 </li>.
 
