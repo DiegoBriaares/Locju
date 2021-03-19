@@ -63,7 +63,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 	<ul>
 		<li><b>locju start</b> creates a Locju environment in your current directory.</li>
 		<li><b>locju startcf</b> It asks for a Codeforces Round, wich is the one that appears on the round link, and it create directories with the format <b>\RoundName\ProblemIndex\</b> (ex: \707-Div-2\A) and inside each directory, a Locju environment.</li>
-		<center>![Alt text](Round_number.jpg)</center>
+		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/Round_number.jpg?raw=true"></center>
 		<li><b>locju judge</b> Judge your solution with the test cases inside <b>\tests</b>.</li>
 		<center>![Alt text](locju_judge.jpg)</center>
 		<li><b>locju validatorjudge</b> Judge your solution with the test cases inside <b>\tests</b> using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
