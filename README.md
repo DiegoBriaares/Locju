@@ -25,9 +25,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <a name="installation"><h3>Installation</h3></a>
 <ol>
 <li>Download this repository.</li>
-<br>
-<li>Put the Locju folder inside <b>C:\</b>. So you will have a <b>C:\Locju\</b> Directory</li>
-<br>	
+<li>Put the Locju folder inside <b>C:\</b>. So you will have a <b>C:\Locju\</b> Directory</li>	
 <li>Add <b>C:\Locju\</b> to your path environment variables,  You can do this as follows: 
     <ol>
 	<li>Go to <i>Control Panel</i>.</li>
@@ -58,7 +56,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 			</ul>
 		<li><i>sol.cpp</i> this is the cpp file that contains your solution to the problem.</li>	
 		<li><b>NOTE1:</b> You must not rename the files listed previously</li>	
-		<li><b>NOTE2:</b> You can add test cases inside <b>\tests\</b> but respecting the format (if you add inT.out and outT.out, there also must be inside in(T-1).in and out(T-1).out (except for in0.in and out0.in)) </li>
+		<li><b>NOTE2:</b> You can add test cases inside <b>\tests\</b> but respecting the format (if you add <i>inT.out</i> and <i>outT.out</i>, there also must be inside <i>in(T-1).in</i> and <i>out(T-1).out</i> (except for <i>in0.in</i> and <i>out0.in</i>)) </li>
 	</ul>
 </li>
 <li>Listed below are the commands that Locju allows you to use in the console. In order to use them, go to your project folder in the console (ex: <b>C:\users\Briaares\Desk\Codeforces\</b>)
