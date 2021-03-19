@@ -25,7 +25,9 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <a name="installation"><h3>Installation</h3></a>
 <ol>
 <li>Download this repository.</li>
+<br>
 <li>Put the Locju folder inside <b>C:\</b>. So you will have a <b>C:\Locju\</b> Directory</li>
+<br>	
 <li>Add <b>C:\Locju\</b> to your path environment variables,  You can do this as follows: 
     <ol>
 	<li>Go to <i>Control Panel</i>.</li>
@@ -40,13 +42,13 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 <ul>
 <li>A Locju environment consists of four folders and a cpp file: <b>tests</b>, <b>correct_solution</b>, <b>generator</b>, <b>validato</b>r and <i>sol.cpp</i>.
 	<ul>
-		<li><b>tests</b> contains inside the problem test cases (with <i>inT.in</i> and <i>outT.out</i> format, T is a positive integer number, wich stands for the test case number), and a folder <b>time-limit</b></li>
+		<li><b>tests</b> contains inside the problem test cases (with <i>inT.in</i> and <i>outT.out</i> format, T is a positive integer number, wich stands for the test case number), and a folder <b>time-limit</b>
 			<ul>
 				<li><i>inT.in</i> is the test case input (ex: <i>in1.in</i>)</li>
 				<li><i>outT.out</i> is the test case output (ex: <i>out1.in</i>)</li>
 				<li><b>time-limit</b> contains inside the file <i>time-limit.out</i>, wich contains a positive number, the time limit for the problem.</li>
 			</ul>
-		<li><b>correct solution</b> contains a cpp file <i>correct_solution.cpp</i>, which must have a correct solution for the problem (brute force maybe)</li>	
+		<li><b>correct solution</b> contains a cpp file <i>correct_solution.cpp</i>, which must have a correct solution for the problem (brute force maybe)</li>
 		<li><b>generator</b> contains a cpp file <i>generator.cpp</i>, which must have a test case generator (ideally random, and generating small test cases that brute force can take)</li>
 		<li><b>validator</b> contains a cpp file <i>validator.cpp</i>, which tests the correctness of your output. You must read the input (with standard cin or scanf) in the following order:</li>
 			<ul>
