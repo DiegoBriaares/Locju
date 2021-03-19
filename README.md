@@ -85,12 +85,12 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/locju_judge.jpg?raw=true"></center>
 		<br>
 		<li><b>locju validatorjudge</b> Judge your solution with the test cases inside <b>\tests</b> using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
-		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
+		<li><b>locju find</b> asks for a number of test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
 		<br>
 		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/find_case.jpg?raw=true"></center>
 		<br>
-		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
+		<li><b>locju validatorfind</b> asks for a number of test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
 	</ul>
 </li>.
 
