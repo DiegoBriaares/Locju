@@ -2,7 +2,7 @@
 
 Locju is a console controlled software, minded to test locally solutions to competitive programming problems. 
 <br><br>
-It allows to judge a C/C++ code, using sample testcases. Your code can throw Accepted, Wrong Answer, Runtime Error, Time Limit Exceed or Compilation Error as a verdict. 
+It allows you to judge a C/C++ code, using sample testcases. Your code can throw Accepted, Wrong Answer, Runtime Error, Time Limit Exceed or Compilation Error as a verdict. 
 
 Locju also has a test case finder functionality. You must write a generator, correct solution and validator (if needed) code to use this function. What it does, is generate a number of testcases and report a verdict for each of them (by comparing with correct solution output). So you can find those testcases in wich your code fails. 
 
