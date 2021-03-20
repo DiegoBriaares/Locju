@@ -43,7 +43,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 		<li><b>tests</b> contains inside the problem test cases (with <i>inT.in</i> and <i>outT.out</i> format, T is a positive integer number, wich stands for the test case number), and also contains a folder <b>time-limit</b>
 			<ul>
 				<li><i>inT.in</i> is the test case input (ex: <i>in1.in</i>)</li>
-				<li><i>outT.out</i> is the test case output (ex: <i>out1.in</i>)</li>
+				<li><i>outT.out</i> is the test case output (ex: <i>out1.out</i>)</li>
 				<li><b>time-limit</b> contains inside the file <i>time-limit.out</i>, wich contains a positive number, the time limit for the problem.</li>
 			</ul>
 		<li><b>correct solution</b> contains a cpp file <i>correct_solution.cpp</i>, which must have a correct solution for the problem (brute force maybe)</li>
