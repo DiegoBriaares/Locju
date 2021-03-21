@@ -43,7 +43,7 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 		<li><b>tests</b> contains inside the problem test cases (with <i>inT.in</i> and <i>outT.out</i> format, T is a positive integer number, wich stands for the test case number), and also contains a folder <b>time-limit</b>
 			<ul>
 				<li><i>inT.in</i> is the test case input (ex: <i>in1.in</i>)</li>
-				<li><i>outT.out</i> is the test case output (ex: <i>out1.in</i>)</li>
+				<li><i>outT.out</i> is the test case output (ex: <i>out1.out</i>)</li>
 				<li><b>time-limit</b> contains inside the file <i>time-limit.out</i>, wich contains a positive number, the time limit for the problem.</li>
 			</ul>
 		<li><b>correct solution</b> contains a cpp file <i>correct_solution.cpp</i>, which must have a correct solution for the problem (brute force maybe)</li>
@@ -85,12 +85,12 @@ Furthermore, it has a functionality to download test cases of a given Codeforces
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/locju_judge.jpg?raw=true"></center>
 		<br>
 		<li><b>locju validatorjudge</b> Judge your solution with the test cases inside <b>\tests</b> using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
-		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
+		<li><b>locju find</b> asks for a number of test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>).</li>
 		<br>
 		<br>
 		<center><img src="https://github.com/DiegoBriaares/Locju/blob/master/find_case.jpg?raw=true"></center>
 		<br>
-		<li><b>locju find</b> asks for a number to test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
+		<li><b>locju validatorfind</b> asks for a number of test cases to generate, and report if it finds a Non-Accepted test case (you need to write a <b>\correct_solution\correct_solution.cpp</b> and a <b>\generator\generator.cpp</b>) using <b>\validator\validator.cpp</b> (useful when there can be several answers).</li>
 	</ul>
 </li>.
 
